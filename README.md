@@ -1,3 +1,4 @@
 # PythonLab
 Experimentos em Python
-Olá, estou aprendendo Python na Universidade. 
+
+Olá, comecei a aprender Python na Universidade. 
