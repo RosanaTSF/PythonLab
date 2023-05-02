@@ -1,0 +1,22 @@
+class Pile():
+    def __init__(self):
+        self.data = []
+
+    def push(self,x):
+        self.data.append(x)
+
+    def pop(self):
+        if len(self.data) > 0:
+            return self.data [-1]
+                
+    def empty(self):
+        return not len(self.data) > 0
+                
+p = Pile()
+num = 13
+while num > 0:
+    resto = num // 2
+    p.push(resto)
+
+while not p.empty():
+    print(p.pop())
